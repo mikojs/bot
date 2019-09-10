@@ -3,7 +3,7 @@
   "description": "Use bot to manage task with slack and github",
   "license": "MIT",
   "author": "HsuTing <hsuting0106@gmail.com>",
-  "homepage": "https://cat-org.github.io/core/bot",
+  "homepage": "https://cat-org.github.io/bot",
   "repository": "https://github.com/cat-org/bot.git",
   "version": "1.0.0",
   "main": "./lib/index.js",

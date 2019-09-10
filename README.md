@@ -13,7 +13,7 @@
 
 <!-- badges.end -->
 
-[website]: https://cat-org.github.io/core/bot
+[website]: https://cat-org.github.io/bot
 
 Use bot to manage task with slack and github.
 
