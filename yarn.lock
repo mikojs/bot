@@ -289,6 +289,14 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-optional-chaining" "^7.2.0"
 
+"@babel/plugin-proposal-pipeline-operator@^7.5.0":
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-pipeline-operator/-/plugin-proposal-pipeline-operator-7.5.0.tgz#4100ec55ef4f6a4c2490b5f5a4f2a22dfa272c06"
+  integrity sha512-HFYuu/yGnkn69ligXxU0ohOVvQDsMNOUJs/c4PYLUVS6ntCYOyGmRQQaSYJARJ9rvc7/ulZKIzxd4wk91hN63A==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/plugin-syntax-pipeline-operator" "^7.5.0"
+
 "@babel/plugin-proposal-unicode-property-regex@^7.4.4":
   version "7.4.4"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-unicode-property-regex/-/plugin-proposal-unicode-property-regex-7.4.4.tgz#501ffd9826c0b91da22690720722ac7cb1ca9c78"
@@ -344,6 +352,13 @@
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-optional-chaining/-/plugin-syntax-optional-chaining-7.2.0.tgz#a59d6ae8c167e7608eaa443fda9fa8fa6bf21dff"
   integrity sha512-HtGCtvp5Uq/jH/WNUPkK6b7rufnCPLLlDAFN7cmACoIjaOOiXxUt3SswU5loHqrhtqTsa/WoLQ1OQ1AGuZqaWA==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+
+"@babel/plugin-syntax-pipeline-operator@^7.5.0":
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-pipeline-operator/-/plugin-syntax-pipeline-operator-7.5.0.tgz#8ea7c2c22847c797748bf07752722a317079dc1e"
+  integrity sha512-5FVxPiMTMXWk4R7Kq9pt272nDu8VImJdaIzvXFSTcXFbgKWWaOdbic12TvUvl6cK+AE5EgnhwvxuWik4ZYYdzg==
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
@@ -736,10 +751,10 @@
     babel-plugin-module-resolver "^3.2.0"
     fbjs "^1.0.0"
 
-"@cat-org/badges@^1.5.4":
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/@cat-org/badges/-/badges-1.5.4.tgz#2b763507c060bb49b115743b322e828e3f8a45aa"
-  integrity sha512-I2bwVI3dSB4GGqfv0TEhbOBCjRVG2uvvixL1mkXjl/ijqK7kTXvxVSRf9DH2IjnMv2wr7nhsJbZ6zZ/YD8iuSw==
+"@cat-org/badges@^1.5.5":
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/@cat-org/badges/-/badges-1.5.5.tgz#151abfaaf60ac60094bafaa3953009dd9a5c1449"
+  integrity sha512-6bGrk+6LS0xWqNvR/7grTJReXB+/vw2wLWtuXKR/BSuW1bTgShwpQu7TYl3RP12ZOUVZ30zgFz2Wa9epa1wZwA==
   dependencies:
     "@babel/runtime" "^7.6.0"
     "@cat-org/logger" "^1.5.3"
@@ -752,10 +767,10 @@
     output-file-sync "^2.0.1"
     read-pkg-up "^6.0.0"
 
-"@cat-org/configs@^1.5.4":
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/@cat-org/configs/-/configs-1.5.4.tgz#a0cdc0b2dff76cf995b2e6891c55c115e104963d"
-  integrity sha512-a9rftvsj802TAYsYxyRtqotcXI5shsGi43n5hRDEstI5AzPvUcDquEBwpIeMzhW6cM+wSyWrBjEV7GB0bGM4iQ==
+"@cat-org/configs@^1.5.5":
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/@cat-org/configs/-/configs-1.5.5.tgz#ff3631e59e232eb86265b1755e1a4d9c59e87f33"
+  integrity sha512-R4HtyQ5mtd4PYqlBEP+G6cVlJFyXoaXpalTxSWwRj9GGzeUKmtmnvNa/JC6tA0R4EkXS0RWz4I7ulcAQVQQHow==
   dependencies:
     "@babel/runtime" "^7.6.0"
     "@cat-org/logger" "^1.5.3"

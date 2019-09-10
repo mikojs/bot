@@ -20,9 +20,10 @@
   "devDependencies": {
     "@babel/cli": "^7.6.0",
     "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.5.0",
     "@cat-org/babel-preset-base": "^1.5.4",
-    "@cat-org/badges": "^1.5.4",
-    "@cat-org/configs": "^1.5.4",
+    "@cat-org/badges": "^1.5.5",
+    "@cat-org/configs": "^1.5.5",
     "@cat-org/eslint-config-cat": "^1.5.4",
     "@cat-org/jest": "^1.5.3",
     "eslint": "^6.3.0",

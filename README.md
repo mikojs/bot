@@ -8,8 +8,8 @@
 [engine-yarn-image]: https://img.shields.io/badge/yarn-%3E=%201.17.3-green.svg
 [license-image]: https://img.shields.io/github/license/cat-org/bot.svg
 [license-link]: ./LICENSE
-[git-search-todo-image]: https://img.shields.io/github/search/cat-org/core/todo+-language:markdown?label=todo
-[git-search-todo-link]: https://github.com/cat-org/core/search?q=todo+-language:markdown&unscoped_q=todo+-language:markdown
+[git-search-todo-image]: https://img.shields.io/github/search/cat-org/bot/todo+-language:markdown?label=todo
+[git-search-todo-link]: https://github.com/cat-org/bot/search?q=todo+-language:markdown&unscoped_q=todo+-language:markdown
 
 <!-- badges.end -->
 
