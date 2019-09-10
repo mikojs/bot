@@ -1,0 +1,49 @@
+{
+  "name": "bot",
+  "description": "Use bot to manage task with slack and github",
+  "license": "MIT",
+  "author": "HsuTing <hsuting0106@gmail.com>",
+  "homepage": "https://cat-org.github.io/core/bot",
+  "repository": "https://github.com/cat-org/bot.git",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "scripts": {
+    "dev": "configs server -w",
+    "prod": "NODE_ENV=production configs server",
+    "test": "configs test"
+  },
+  "dependencies": {
+    "@cat-org/koa-base": "^1.5.3",
+    "@cat-org/server": "^1.5.4",
+    "koa": "^2.8.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@cat-org/babel-preset-base": "^1.5.4",
+    "@cat-org/badges": "^1.5.4",
+    "@cat-org/configs": "^1.5.4",
+    "@cat-org/eslint-config-cat": "^1.5.4",
+    "@cat-org/jest": "^1.5.3",
+    "eslint": "^6.3.0",
+    "eslint-watch": "^6.0.0",
+    "flow-bin": "^0.107.0",
+    "flow-typed": "^2.6.1",
+    "husky": "^3.0.5",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.2.5",
+    "prettier": "^1.18.2",
+    "prettier-package-json": "^2.1.0"
+  },
+  "keywords": ["bot", "github", "slack"],
+  "engines": {
+    "node": ">= 12.7.0",
+    "npm": ">= 6.10.0",
+    "yarn": ">= 1.17.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "configs lint-staged && yarn flow"
+    }
+  }
+}
