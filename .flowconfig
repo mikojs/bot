@@ -1,6 +1,7 @@
 [ignore]
 # just for findup
 .*/node_modules/findup/test/.*
+.*/node_modules/@cat-org/utils/lib/d3DirTree.js.flow
 
 [include]
 
