@@ -9,16 +9,13 @@
 import { emptyFunction } from 'fbjs';
 import { type Context as koaContextType } from 'koa';
 
-import server, {
-  // $FlowFixMe TODO: remove after upgrading to new version of @cat-org/server
-  type contextType,
-} from '@cat-org/server';
+import server, { type contextType } from '@mikojs/server';
 
 /**
  * @example
  * server(context)
  *
- * @param {contextType} context - context from @cat-org/server
+ * @param {contextType} context - context from @mikojs/server
  *
  * @return {object} - http server
  */

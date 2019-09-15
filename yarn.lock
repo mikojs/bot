@@ -728,141 +728,6 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@cat-org/babel-plugin-transform-flow@^1.5.4":
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/@cat-org/babel-plugin-transform-flow/-/babel-plugin-transform-flow-1.5.4.tgz#b04a286aef959a6659e61b37337abf444f8e71ca"
-  integrity sha512-tD7ro8pLHPnPYUBWtMrohroKQl8aHnhkGysIhhtiyGszW6nScEpuBa8vqNLT8+xUOCLsiCVwez/eUcPQQBtj6Q==
-  dependencies:
-    "@babel/core" "^7.6.0"
-    "@babel/helper-plugin-utils" "^7.0.0"
-    output-file-sync "^2.0.1"
-
-"@cat-org/babel-preset-base@^1.5.4":
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/@cat-org/babel-preset-base/-/babel-preset-base-1.5.4.tgz#8e632d059ec57967d12a3aba022711bd17391c0d"
-  integrity sha512-ZNqdb3wXxqzQI5ywMlVHv/SoWM/7Dt7SgFLAhSa8bcA2QLcZHH1NWmhsLzsQRt0K1YzaVtBf2RuOiR70oi9fXQ==
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/plugin-proposal-optional-chaining" "^7.6.0"
-    "@babel/preset-env" "^7.6.0"
-    "@babel/preset-flow" "^7.0.0"
-    "@cat-org/babel-plugin-transform-flow" "^1.5.4"
-    "@cat-org/utils" "^1.5.3"
-    babel-plugin-module-resolver "^3.2.0"
-    fbjs "^1.0.0"
-
-"@cat-org/badges@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@cat-org/badges/-/badges-1.5.5.tgz#151abfaaf60ac60094bafaa3953009dd9a5c1449"
-  integrity sha512-6bGrk+6LS0xWqNvR/7grTJReXB+/vw2wLWtuXKR/BSuW1bTgShwpQu7TYl3RP12ZOUVZ30zgFz2Wa9epa1wZwA==
-  dependencies:
-    "@babel/runtime" "^7.6.0"
-    "@cat-org/logger" "^1.5.3"
-    "@cat-org/utils" "^1.5.3"
-    chalk "^2.4.2"
-    commander "^3.0.1"
-    debug "^4.1.1"
-    execa "^2.0.4"
-    fbjs "^1.0.0"
-    output-file-sync "^2.0.1"
-    read-pkg-up "^6.0.0"
-
-"@cat-org/configs@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@cat-org/configs/-/configs-1.5.5.tgz#ff3631e59e232eb86265b1755e1a4d9c59e87f33"
-  integrity sha512-R4HtyQ5mtd4PYqlBEP+G6cVlJFyXoaXpalTxSWwRj9GGzeUKmtmnvNa/JC6tA0R4EkXS0RWz4I7ulcAQVQQHow==
-  dependencies:
-    "@babel/runtime" "^7.6.0"
-    "@cat-org/logger" "^1.5.3"
-    "@cat-org/utils" "^1.5.3"
-    chalk "^2.4.2"
-    commander "^3.0.1"
-    cosmiconfig "^5.2.1"
-    debug "^4.1.1"
-    execa "^2.0.4"
-    fbjs "^1.0.0"
-    is-running "^2.1.0"
-    moment "^2.24.0"
-    npm-which "^3.0.1"
-    output-file-sync "^2.0.1"
-    rimraf "^3.0.0"
-
-"@cat-org/eslint-config-cat@^1.5.4":
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/@cat-org/eslint-config-cat/-/eslint-config-cat-1.5.4.tgz#a1f1d30b7f700287f9ce759b9229dbf874dd7e3a"
-  integrity sha512-lT8zEWBLGTSGZvgUQH3ZzpK1CcQaLiHD8OiN/iAiOqYwfTQ8hHK0SrewBdbnCHtgTM9juprQjbgv0mtpAl5S2Q==
-  dependencies:
-    babel-eslint "^10.0.3"
-    eslint-config-fbjs "^3.1.1"
-    eslint-config-google "^0.14.0"
-    eslint-config-prettier "^6.2.0"
-    eslint-import-resolver-babel-module "^5.1.0"
-    eslint-plugin-babel "^5.3.0"
-    eslint-plugin-flowtype "^4.3.0"
-    eslint-plugin-import "^2.18.2"
-    eslint-plugin-jsdoc "^15.9.1"
-    eslint-plugin-jsx-a11y "^6.2.3"
-    eslint-plugin-prettier "^3.1.0"
-    eslint-plugin-react "^7.14.3"
-    eslint-plugin-relay "^1.3.11"
-
-"@cat-org/jest@^1.5.3":
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/@cat-org/jest/-/jest-1.5.3.tgz#69e18ca5582279488e03e77672ea714679afa71c"
-  integrity sha512-wdm3umFAgV0LCKS4+3c04CGrUPdZAf22uevTvmoIyfbe1Xev7j3+2rtr3yFHreFg250bIfs+J0XLnDGQJ+gE5A==
-  dependencies:
-    "@cat-org/utils" "^1.5.3"
-    babel-jest "^24.9.0"
-    enzyme "^3.10.0"
-    fbjs "^1.0.0"
-
-"@cat-org/koa-base@^1.5.3":
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/@cat-org/koa-base/-/koa-base-1.5.3.tgz#72c815f48779908fb07a529b9cc30a7528074d9a"
-  integrity sha512-Fg3r5qGDbubDcKoDvYGZAhD3To0IvxbRHvA8ueQIJZyxO31WLAm/CkiYbXLtxprd+8TjXcP22Sg+ghBPzzOPWw==
-  dependencies:
-    "@cat-org/utils" "^1.5.3"
-    fbjs "^1.0.0"
-    koa-bodyparser "^4.2.1"
-    koa-compose "^4.1.0"
-    koa-compress "^3.0.0"
-    koa-etag "^3.0.0"
-    koa-helmet "^5.1.0"
-    koa-morgan "^1.0.1"
-
-"@cat-org/logger@^1.5.3":
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/@cat-org/logger/-/logger-1.5.3.tgz#61c508abc8e8ea53dc63b58f943d6eba614454a6"
-  integrity sha512-dlMr2Dy2SkXMaRLAqH+L5rLHRCA1l08nOuhX77OvGwo/9Q9joZClJA7+Q4DTbfX9My6TZf5b7TgMgOMLCbQayw==
-  dependencies:
-    "@cat-org/utils" "^1.5.3"
-    chalk "^2.4.2"
-    fbjs "^1.0.0"
-
-"@cat-org/server@^1.5.4":
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/@cat-org/server/-/server-1.5.4.tgz#294138485a4ee2bc5dfaf8d6c711e00178ac9997"
-  integrity sha512-qbVcPpN11zMPl3k0TEFiMAdAg9wP3V9HHQLrS/ISQPqK7XgWqdX0JD9ZaJJPUDpfa9dbq+dh3ax9EGqE8q1vOQ==
-  dependencies:
-    "@babel/cli" "^7.6.0"
-    "@babel/core" "^7.6.0"
-    "@babel/runtime" "^7.6.0"
-    "@cat-org/logger" "^1.5.3"
-    "@cat-org/utils" "^1.5.3"
-    chalk "^2.4.2"
-    chokidar "^3.0.2"
-    commander "^3.0.1"
-    debug "^4.1.1"
-    execa "^2.0.4"
-    fbjs "^1.0.0"
-    koa-router "^7.4.0"
-    ora "^3.4.0"
-
-"@cat-org/utils@^1.5.3":
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/@cat-org/utils/-/utils-1.5.3.tgz#a1374b8057ca3d6b54997278354d8d4ad84df004"
-  integrity sha512-wW93GdLFw6z6DwYeDhXYW41ZnhUGL7BWwRnKBkoPxqk5Ve/nRKnFm0N6CmtKvnplb6dCsr2lHDphmhYdUD9ZLQ==
-
 "@cnakazawa/watch@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.3.tgz#099139eaec7ebf07a27c1786a3ff64f39464d2ef"
@@ -1018,6 +883,141 @@
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
+
+"@mikojs/babel-plugin-transform-flow@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@mikojs/babel-plugin-transform-flow/-/babel-plugin-transform-flow-1.6.0.tgz#a9b540f46e72940d37b117a6b77c8c6ada3af1ba"
+  integrity sha512-I1mFF0BRrR0N+0yecaIs6y2DZysiVOpwVMtOLL1APkeCmp4bKf9Eohes7aqyfzFC5x8LfMNmh2kTzN6s5NHDTg==
+  dependencies:
+    "@babel/core" "^7.6.0"
+    "@babel/helper-plugin-utils" "^7.0.0"
+    output-file-sync "^2.0.1"
+
+"@mikojs/babel-preset-base@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@mikojs/babel-preset-base/-/babel-preset-base-1.6.0.tgz#1324698db2deadf82b3ca3c26bf625c90730b396"
+  integrity sha512-alr3xjdf1Uw7jmmvJMvc8zhIeyv+fTzwPskJGhjbn0DmPNvxIJW6leRd13VZ9+csFmh964dsuHutqOTiCQNE0Q==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/plugin-proposal-optional-chaining" "^7.6.0"
+    "@babel/preset-env" "^7.6.0"
+    "@babel/preset-flow" "^7.0.0"
+    "@mikojs/babel-plugin-transform-flow" "^1.6.0"
+    "@mikojs/utils" "^1.6.0"
+    babel-plugin-module-resolver "^3.2.0"
+    fbjs "^1.0.0"
+
+"@mikojs/badges@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@mikojs/badges/-/badges-1.6.0.tgz#539adfc9fe36a5f309de582e594762bfd548074b"
+  integrity sha512-TroCmn+7FY2C/dXTXvIEDeYVq1mMs1wV2aGwlo1/oFhD2xOiUelYF5mnIOInqLWxjp6hH2C8O1eX+lakI/lctw==
+  dependencies:
+    "@babel/runtime" "^7.6.0"
+    "@mikojs/logger" "^1.6.0"
+    "@mikojs/utils" "^1.6.0"
+    chalk "^2.4.2"
+    commander "^3.0.1"
+    debug "^4.1.1"
+    execa "^2.0.4"
+    fbjs "^1.0.0"
+    output-file-sync "^2.0.1"
+    read-pkg-up "^6.0.0"
+
+"@mikojs/configs@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@mikojs/configs/-/configs-1.6.0.tgz#7eedc15d2d883465fec5047a3dd6c7cc34ffedfe"
+  integrity sha512-csPfwbvdzvin3B20rtJI5C51PCJsbsa3cGGjfH3FssEzmnFa4lKjxJSwQ+Ha2C14OPvrEZGm50EZW7t/UiPKDw==
+  dependencies:
+    "@babel/runtime" "^7.6.0"
+    "@mikojs/logger" "^1.6.0"
+    "@mikojs/utils" "^1.6.0"
+    chalk "^2.4.2"
+    commander "^3.0.1"
+    cosmiconfig "^5.2.1"
+    debug "^4.1.1"
+    execa "^2.0.4"
+    fbjs "^1.0.0"
+    is-running "^2.1.0"
+    moment "^2.24.0"
+    npm-which "^3.0.1"
+    output-file-sync "^2.0.1"
+    rimraf "^3.0.0"
+
+"@mikojs/eslint-config-cat@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@mikojs/eslint-config-cat/-/eslint-config-cat-1.6.0.tgz#afc9fd0d4ab9e6f121add78403a9e263317986d0"
+  integrity sha512-GdwVaiP1YwjGDV3/iqwx8+vYqfjJSTuiVwIFO2J8toN1EoBeZaUElke6AuyjBPrFwUkS4QWvgTvT6BzftVMLtA==
+  dependencies:
+    babel-eslint "^10.0.3"
+    eslint-config-fbjs "^3.1.1"
+    eslint-config-google "^0.14.0"
+    eslint-config-prettier "^6.2.0"
+    eslint-import-resolver-babel-module "^5.1.0"
+    eslint-plugin-babel "^5.3.0"
+    eslint-plugin-flowtype "^4.3.0"
+    eslint-plugin-import "^2.18.2"
+    eslint-plugin-jsdoc "^15.9.1"
+    eslint-plugin-jsx-a11y "^6.2.3"
+    eslint-plugin-prettier "^3.1.0"
+    eslint-plugin-react "^7.14.3"
+    eslint-plugin-relay "^1.3.11"
+
+"@mikojs/jest@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@mikojs/jest/-/jest-1.6.0.tgz#ede5647e79506ad1cb08229f26606b8849a990c6"
+  integrity sha512-vY+wvAT97og9COv5j51hGP9a3vmyDfxN3qlqUen8g+a0B8laEInUstCPkpbrBMPkstQwCbrkRIgo0pKziDoAIA==
+  dependencies:
+    "@mikojs/utils" "^1.6.0"
+    babel-jest "^24.9.0"
+    enzyme "^3.10.0"
+    fbjs "^1.0.0"
+
+"@mikojs/koa-base@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@mikojs/koa-base/-/koa-base-1.6.0.tgz#7ccd89c818c4db9a8e1a309494062df3dcb74cde"
+  integrity sha512-Tb/whb/5Wumy/ySh5pSpGbL/0l4OF20lFuF4wNP/IG8GPr++ZykSytfA2h0IfWbR8dIu+QgG7akWiSwyPuNcjg==
+  dependencies:
+    "@mikojs/utils" "^1.6.0"
+    fbjs "^1.0.0"
+    koa-bodyparser "^4.2.1"
+    koa-compose "^4.1.0"
+    koa-compress "^3.0.0"
+    koa-etag "^3.0.0"
+    koa-helmet "^5.1.0"
+    koa-morgan "^1.0.1"
+
+"@mikojs/logger@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@mikojs/logger/-/logger-1.6.0.tgz#d0431e9edfddd4e386fb3eea4cde92c88ff4cefc"
+  integrity sha512-rAyyf2X+X3Kss+VvwvXlhn+blO+fLGqAECx4orfr1CZfP0r4Whon+uIpEZ5V9rk6KPrBhnRpmsv/Rgur4h4enA==
+  dependencies:
+    "@mikojs/utils" "^1.6.0"
+    chalk "^2.4.2"
+    fbjs "^1.0.0"
+
+"@mikojs/server@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@mikojs/server/-/server-1.6.0.tgz#afd0d5e27e1ae017abccba0a904a0c88ddc67d65"
+  integrity sha512-re2fq8qLzDf89CkW5AE4/jseoniY2Ghab/Vb3GnHJc5kjS2R8x3b1l1vYycW2kkotWTbPdn3e611an+iJluMpw==
+  dependencies:
+    "@babel/cli" "^7.6.0"
+    "@babel/core" "^7.6.0"
+    "@babel/runtime" "^7.6.0"
+    "@mikojs/logger" "^1.6.0"
+    "@mikojs/utils" "^1.6.0"
+    chalk "^2.4.2"
+    chokidar "^3.0.2"
+    commander "^3.0.1"
+    debug "^4.1.1"
+    execa "^2.0.4"
+    fbjs "^1.0.0"
+    koa-router "^7.4.0"
+    ora "^3.4.0"
+
+"@mikojs/utils@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@mikojs/utils/-/utils-1.6.0.tgz#33f5f9cbbf6dd566d877263f4951351607d80a05"
+  integrity sha512-RHPLp37OcUpQWa50xt46CVRZ96tSU+i6ajJlzcvNRz4QLwy80yxFKgzLQwJ+liBSzTDnXisYzsmmXn66AMGdfA==
 
 "@nodelib/fs.scandir@2.1.2":
   version "2.1.2"
@@ -3320,6 +3320,13 @@ get-own-enumerable-property-symbols@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/get-own-enumerable-property-symbols/-/get-own-enumerable-property-symbols-3.0.0.tgz#b877b49a5c16aefac3655f2ed2ea5b684df8d203"
   integrity sha512-CIJYJC4GGF06TakLg8z4GQKvDsx9EMspVxOYih7LerEL/WosUnFIww45CGfxfeKHqlg3twgUrYRT1O3WQqjGCg==
+
+get-port@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/get-port/-/get-port-5.0.0.tgz#aa22b6b86fd926dd7884de3e23332c9f70c031a6"
+  integrity sha512-imzMU0FjsZqNa6BqOjbbW6w5BivHIuQKopjpPqcnx0AVHJQKCxK1O+Ab3OrVXhrekqfVMjwA9ZYu062R+KcIsQ==
+  dependencies:
+    type-fest "^0.3.0"
 
 get-stdin@^6.0.0:
   version "6.0.0"
@@ -7286,6 +7293,11 @@ type-check@~0.3.2:
   integrity sha1-WITKtRLPHTVeP7eE8wgEsrUg23I=
   dependencies:
     prelude-ls "~1.1.2"
+
+type-fest@^0.3.0:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.3.1.tgz#63d00d204e059474fe5e1b7c011112bbd1dc29e1"
+  integrity sha512-cUGJnCdr4STbePCgqNFbpVNCepa+kAVohJs1sLhxzdH+gnEoOd8VhbYa7pD3zZYGiURWM2xzEII3fQcRizDkYQ==
 
 type-fest@^0.5.0:
   version "0.5.2"
