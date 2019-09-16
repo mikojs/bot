@@ -16,12 +16,14 @@
     "@mikojs/koa-base": "^1.6.0",
     "@mikojs/server": "^1.6.0",
     "fbjs": "^1.0.0",
+    "firebase-admin": "^8.5.0",
     "koa": "^2.8.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.0",
     "@babel/core": "^7.6.0",
     "@babel/plugin-proposal-pipeline-operator": "^7.5.0",
+    "@firebase/testing": "^0.13.1",
     "@mikojs/babel-preset-base": "^1.6.0",
     "@mikojs/badges": "^1.6.0",
     "@mikojs/configs": "^1.6.0",

@@ -33,12 +33,13 @@ jobs:
           name: Check code style
           command: |
             yarn flow-typed install
+            echo "{}" > key.json
             yarn configs lint .
             yarn flow
 
       - run:
           name: Test
-          command: yarn test -i
+          command: yarn test
       - store_artifacts:
           path: coverage
 

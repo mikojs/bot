@@ -17,3 +17,6 @@ flow-typed/npm
 
 # jest
 coverage
+
+# firebase key
+key.json

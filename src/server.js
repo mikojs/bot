@@ -7,9 +7,11 @@
 /* eslint-disable flowtype/no-types-missing-file-annotation, flowtype/require-valid-file-annotation */
 
 import { emptyFunction } from 'fbjs';
-import { type Context as koaContextType } from 'koa';
 
 import server, { type contextType } from '@mikojs/server';
+import base from '@mikojs/koa-base';
+
+import todo from './middlewares/todo';
 
 /**
  * @example
@@ -21,15 +23,10 @@ import server, { type contextType } from '@mikojs/server';
  */
 export default ({ dir, dev, watch, port }: contextType) =>
   server.init()
-  |> (undefined
+  |> server.use(base)
+  |> ('/slack'
     |> server.start
-    |> ('*'
-      |> server.get
-      |> server.use(async (ctx: koaContextType, next: () => Promise<void>) => {
-        ctx.body = 'todo bot';
-        await next();
-      })
-      |> server.end)
+    |> ('/todo' |> server.post |> server.use(todo) |> server.end)
     |> server.end)
   |> server.run(port)
   |> (dev && watch ? server.watch(dir, []) : emptyFunction.thatReturnsArgument);
