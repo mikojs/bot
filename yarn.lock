@@ -1186,10 +1186,10 @@
     output-file-sync "^2.0.1"
     read-pkg-up "^6.0.0"
 
-"@mikojs/configs@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@mikojs/configs/-/configs-1.6.0.tgz#7eedc15d2d883465fec5047a3dd6c7cc34ffedfe"
-  integrity sha512-csPfwbvdzvin3B20rtJI5C51PCJsbsa3cGGjfH3FssEzmnFa4lKjxJSwQ+Ha2C14OPvrEZGm50EZW7t/UiPKDw==
+"@mikojs/configs@^1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@mikojs/configs/-/configs-1.6.1.tgz#c51ed6df8c0e6e55712a022b628da20b3213a16a"
+  integrity sha512-AagDkg79NmdMTd5FUOh2mnW+JBVz8R/PWX/Q2XiQu0GVdirrVs1qNGXYnqwuKmtWR4B+VGjRen5hmyFOOckG/g==
   dependencies:
     "@babel/runtime" "^7.6.0"
     "@mikojs/logger" "^1.6.0"

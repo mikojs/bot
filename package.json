@@ -27,7 +27,7 @@
     "@firebase/testing": "^0.13.1",
     "@mikojs/babel-preset-base": "^1.6.0",
     "@mikojs/badges": "^1.6.0",
-    "@mikojs/configs": "^1.6.0",
+    "@mikojs/configs": "^1.6.1",
     "@mikojs/eslint-config-cat": "^1.6.0",
     "@mikojs/jest": "^1.6.0",
     "babel-plugin-transform-imports": "^2.0.0",
