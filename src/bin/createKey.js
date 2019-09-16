@@ -21,7 +21,8 @@ fs.writeFileSync(
     ].reduce(
       (result: {}, key: string) => ({
         ...result,
-        [key]: process.env[key],
+        // $FlowFixMe TODO: Flow does not yet support method or property calls in optional chains.
+        [key]: process.env[key]?.replace(/\\n/g, '\n'),
       }),
       {},
     ),
