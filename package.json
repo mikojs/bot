@@ -9,7 +9,9 @@
   "main": "./lib/index.js",
   "scripts": {
     "dev": "configs server -w",
+    "heroku-postbuild": "configs exec babel src/bin/createKey.js -o ./lib/bin/createKey.js --configs-files babel && node ./lib/bin/createKey.js",
     "prod": "NODE_ENV=production configs server",
+    "start": "yarn prod",
     "test": "configs test"
   },
   "dependencies": {
