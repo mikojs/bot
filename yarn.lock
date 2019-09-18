@@ -1186,10 +1186,10 @@
     output-file-sync "^2.0.1"
     read-pkg-up "^6.0.0"
 
-"@mikojs/configs@^1.6.1":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@mikojs/configs/-/configs-1.6.1.tgz#c51ed6df8c0e6e55712a022b628da20b3213a16a"
-  integrity sha512-AagDkg79NmdMTd5FUOh2mnW+JBVz8R/PWX/Q2XiQu0GVdirrVs1qNGXYnqwuKmtWR4B+VGjRen5hmyFOOckG/g==
+"@mikojs/configs@^1.6.2":
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/@mikojs/configs/-/configs-1.6.2.tgz#0dc2b27ba38ea419eacbf6d701acd56c479d704d"
+  integrity sha512-v1R+8TP95nkMnDgM3SqI4n+09bXbYTBfg0YM+DIjx9LjhTU+eOw+3G3axGzaeU5S+Jn5xniDUiyyuEjKRMa4MA==
   dependencies:
     "@babel/runtime" "^7.6.0"
     "@mikojs/logger" "^1.6.0"
@@ -1206,10 +1206,10 @@
     output-file-sync "^2.0.1"
     rimraf "^3.0.0"
 
-"@mikojs/eslint-config-cat@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@mikojs/eslint-config-cat/-/eslint-config-cat-1.6.0.tgz#afc9fd0d4ab9e6f121add78403a9e263317986d0"
-  integrity sha512-GdwVaiP1YwjGDV3/iqwx8+vYqfjJSTuiVwIFO2J8toN1EoBeZaUElke6AuyjBPrFwUkS4QWvgTvT6BzftVMLtA==
+"@mikojs/eslint-config-base@^1.6.2":
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/@mikojs/eslint-config-base/-/eslint-config-base-1.6.2.tgz#3d6bc2fabf52d7fb7ee4015f522232a1b6e37e47"
+  integrity sha512-6bUmCPe3St/KeH4ItkyTxfALHXql9IyV0DImfYbyhlyAxHN0VFQcpy7dDTEjNb4wCnENj8gVBx14G7gvwYMgxA==
   dependencies:
     babel-eslint "^10.0.3"
     eslint-config-fbjs "^3.1.1"

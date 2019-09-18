@@ -18,7 +18,7 @@
     "@babel/core": "^7.6.0",
     "@babel/plugin-proposal-pipeline-operator": "^7.5.0",
     "@mikojs/babel-preset-base": "^1.6.0",
-    "@mikojs/configs": "^1.6.1",
+    "@mikojs/configs": "^1.6.2",
     "@mikojs/koa-base": "^1.6.0",
     "@mikojs/server": "^1.6.0",
     "babel-plugin-transform-imports": "^2.0.0",
@@ -29,7 +29,7 @@
   "devDependencies": {
     "@firebase/testing": "^0.13.1",
     "@mikojs/badges": "^1.6.0",
-    "@mikojs/eslint-config-cat": "^1.6.0",
+    "@mikojs/eslint-config-base": "^1.6.2",
     "@mikojs/jest": "^1.6.0",
     "eslint": "^6.3.0",
     "eslint-watch": "^6.0.0",
